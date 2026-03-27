@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: rgb(137, 93, 93);
+        }
+
+        form {
+            background-color: rgb(168, 135, 182);
+            width: 300px;
+            padding: 15px;
+            margin: 50px auto;
+            border: 1px solid black;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .gender input {
+            width: auto;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h3>Student Form</h3>
+
+        <label>Name</label>
+        <input type="text">
+
+        <label>Email</label>
+        <input type="email">
+
+        <label>Password</label>
+        <input type="password">
+
+        <label>Phone</label>
+        <input type="number">
+
+        <label>Gender</label>
+        <div class="gender">
+            <input type="radio" name="g"> Male
+            <input type="radio" name="g"> Female
+        </div>
+
+        <label>Country</label>
+        <select>
+            <option>India</option>
+            <option>USA</option>
+        </select>
+
+        <label>Comment</label>
+        <textarea></textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
