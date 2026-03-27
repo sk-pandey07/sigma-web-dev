@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+        <style>
+        body {
+            font-family: Arial;
+            background-color: rgb(137, 93, 93);
+        }
+
+        form {
+            background-color: rgb(157, 156, 98);
+            width: 300px;
+            padding: 15px;
+            margin: 50px auto;
+            border: 1px solid black;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .gender input {
+            width: auto;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>registration form</legend>
+            <div>
+                <label for="name">FullName</label>
+                <input type="text" id="name" placeholder="Enter Your Name" pattern="[a-zA-Z]" required>
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required pattern="[a-zA-Z0-9]"">
+            </div>
+            <div>
+                <label for="email">email-id</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="number">Number</label>
+                <input type="number" id="number" placeholder="Enter Your Contect Number" pattern="[0-9]" required>
+            </div>
+            <div>
+                <label for="">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" value="female" name="gender">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" value="female" name="gender">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="india">india</option>
+                    <option value="china">china</option>
+                    <option value="America">America</option>
+                    <option value="Uk">Uk</option>
+                    <option value="south africa">south africa</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" rows="4" cols="50">Enter Your Comments</textarea>
+            </div>
+            <div>
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
