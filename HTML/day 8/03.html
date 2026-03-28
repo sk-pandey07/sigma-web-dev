@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+            <style>
+        body {
+            font-family: Arial;
+            background-color: rgb(137, 93, 93);
+        }
+
+        form {
+            background-color: rgb(144, 143, 85);
+            width: 300px;
+            padding: 15px;
+            margin: 50px auto;
+            border: 1px solid black;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .gender input {
+            width: auto;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>registration form</legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter Your Name" id="name">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" placeholder="Enter email id" id="email" required>
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" placeholder="Enter password" id="password">
+            </div>
+            <div>
+                <label for="">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+            <div>
+                <label for="course">Course:</label>
+                <select name="" id="course">
+                    <option value="">B-tech</option>
+                    <option value="">BCA</option>
+                    <option value="">BA</option>
+                    <option value="">BSC</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
