@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spider-man</title>
+
+</head>
+<body>
+    <header>
+        <h1>spider-man universe</h1>
+        <p>“With Great Power Comes Great Responsibility”</p>
+    </header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Movies">Movies</a>
+        <a href="#Villains">Villains</a>
+    </nav>
+    <main>
+        <section id="Home">
+            <h2>"Welcome to the World of Spider-Man"</h2>
+            <h3>"Your Friendly Neighborhood Superhero"</h3>
+            <p>"Spider-Man, also known as Peter Parker, is a hero who fights crime with intelligence, agility, and responsibility."</p>
+            <img src="https://i.pinimg.com/736x/48/ce/e5/48cee53203651dae8f3229fd4739c3f8.jpg" alt="spider-man">
+        </section>
+        <section id="About">
+            <h2>About spider-man</h2>
+            <p>
+            Spider-Man, also known as Peter Parker, is one of the most iconic superheroes in the world. 
+            He gained his powers after being bitten by a <a href="https://bwscience.com/where-can-you-find-a-radioactive-spider/">radioactive spider</a>, which gave him <a href="https://www.looper.com/771880/all-of-spider-mans-powers-explained/">abilities</a> 
+            like wall-climbing, super strength, agility, and spider-sense.
+        </p>
+
+        <p>
+            He protects New York City from dangerous villains while balancing his personal life. 
+            His journey is guided by the famous quote, "With great power comes great responsibility."
+        </p>
+        </section>
+        <section id="Movies">
+            <h2>spiderman movies list</h2>
+            <h3>Spider-Man</h3>
+            <p>📅 Release Year: 2002 <br>
+                Director: <a href="https://en.wikipedia.org/wiki/Sam_Raimi">Sam Raimi</a> <br>
+                Based on <a href="">Marvel Comics</a> character: Spider-Man
+            </p>
+            <img src="https://i.pinimg.com/736x/0c/6c/42/0c6c42bca83df6385bb24024654b97ad.jpg" alt="">
+            <p>Who is Spider-Man? <br>
+               Real name: Peter Parker <br>
+               Occupation: Student + Photographer <br>
+               Lives in: New York City <br>
+               Raised by: Aunt May & Uncle Ben <br></p>
+
+            <nav>
+                <img src="https://i.sstatic.net/LZtkdm.jpg" alt="" width="200">
+                <img src="https://i.pinimg.com/736x/80/29/82/802982fc66e5b45fc4f113e232d10a7f.jpg" alt="" width="200">
+                <img src="https://cafans.b-cdn.net/images/Category_38570/subcat_224512/HENHEPpD_0406232034131sbpi.jpg" alt="" width="200">
+                <img src="https://pbs.twimg.com/media/FejxKuqXwAM_kaL.jpg" alt="" width="200">
+            </nav>
+            <p>Peter Parker was bitten by a radioactive spider, which gave him amazing abilities.</p>
+            <h4>🕸️ His Powers:</h4>
+            <ul>
+                <li>Wall climbing 🧗‍♂️</li>
+                <li>Super strength 💪</li>
+                <li>Spider-sense (danger alert) ⚠️</li>
+                <li>Web-shooting (his own invention)</li>
+            </ul>
+        </section>
+        <section id="Villains">
+    <h1>Spider-Man Villains</h1>
+    <p>Spider-Man faces some of the most dangerous and iconic villains in Marvel history.</p>
+
+    <div class="villain">
+        <h2> <a href="https://en.wikipedia.org/wiki/Green_Goblin">Green Goblin</a> <a href="https://en.wikipedia.org/wiki/Norman_Osborn">(Norman Osborn)</a></h2>
+        <p>A genius businessman turned into a dangerous villain. Uses advanced technology and a glider to attack Spider-Man.</p>
+    </div>
+
+    <div class="villain">
+        <h2><a href="https://en.wikipedia.org/wiki/Doctor_Octopus">Doctor Octopus</a> <a href="https://en.wikipedia.org/wiki/Otto_Octavius_(film_character)">(Otto Octavius)</a></h2>
+        <p>A brilliant scientist with four powerful mechanical arms. One of Spider-Man’s smartest enemies.</p>
+    </div>
+
+    <div class="villain">
+        <h2><a href="https://en.wikipedia.org/wiki/Venom_(character)">Venom</a></h2>
+        <p>An alien symbiote bonded with Eddie Brock. Stronger than Spider-Man and immune to his spider-sense.</p>
+    </div>
+
+    <div class="villain">
+        <h2><a href="">Sandman</a></h2>
+        <p>Can turn his body into sand and reshape it into powerful weapons. Nearly impossible to defeat physically.</p>
+    </div>
+
+    <div class="villain">
+        <h2> <a href="https://en.wikipedia.org/wiki/Lizard_(character)">Lizard</a> <a href="https://en.wikipedia.org/wiki/Billy_Connors_(character)">(Dr. Curt Connors)</a> </h2>
+        <p>A scientist who transforms into a reptilian monster. Combines intelligence with brute strength.</p>
+    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">
+            © 2026 Spider-Man Fan Website | Made by You 🕸️
+        </p>
+    </footer>
+</body>
+</html>
