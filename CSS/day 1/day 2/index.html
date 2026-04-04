@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Element selector */
+        div{
+            background-color: brown;
+        }
+        /* class selector */
+        .grean{
+            background-color: chartreuse;
+        }
+
+        /* Id selector */
+        #pink{
+            background-color: pink;
+        }
+
+        /* child selector */
+        div > p {
+            color: darkred;
+            background-color: cadetblue;
+        }
+
+        /* Descendent selector */
+        div p{
+            color: beige;
+            background-color: darkblue;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: darkorange;
+        }
+        a:link{
+            color: chartreuse;
+        }
+        a:active{
+            background-color: darkred;
+        }
+        
+        a:hover{
+            background-color: rgb(19, 88, 95);
+        }
+
+        p:first-child{
+            background-color: cadetblue;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </main>
+    <div class="grean">
+        i am a div
+    </div>
+    <div>
+        i am another div
+        <!--only change for direct chaild-->
+        <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, exercitationem.</p>
+        </article>
+    </div>
+    <div id="pink">
+        Lorem ipsum dolor sit amet consectetur.
+    </div>
+    <a href="https://www.google.com/?zx=1775315845137">Google</a> <br>
+
+    <a href="https://www.facebook.com/">FaceBook</a>
+</body>
+</html>
