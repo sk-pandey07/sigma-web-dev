@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Pricing Section</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        .card{
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .card.pro{
+            transform: scale(1.1);
+        }
+        .card ul li{
+            list-style: none;
+        }
+        .card > button{
+            width: 100%;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+        .pricing .card:nth-child(2) {
+            border: 2px solid gold;
+        }
+        .card ul li:first-child {
+            font-weight: bold;
+        }
+
+        .card ul li:last-child {
+            color: rgb(132, 109, 217);
+        }
+        .card {
+            background: rgb(158, 15, 15);
+        }
+
+        .card.pro {
+            background: rgb(156, 14, 14);
+        }
+    </style>
+</head>
+<body>
+    <section class="pricing">
+        <div class="card basic">
+            <h2>Basic</h2>
+            <p class="price">₹199</p>
+            <ul>
+                <li>1 user</li>
+                <li>Bsic support</li>
+            </ul>
+            <button>choose</button>
+        </div>
+        <div class="card pro">
+            <h2>Pro</h2>
+            <p class="price">₹499</p>
+            <ul>
+                <li>5 user</li>
+                <li>Priority Support</li>
+            </ul>
+            <button>choose</button>
+        </div>
+        <div class="card Premium">
+            <h2>Premium</h2>
+            <p class="price">₹999</p>
+            <ul>
+                <li>Unlimited user</li>
+                <li>24/7 Support</li>
+            </ul>
+            <button>choose</button>
+        </div>
+    </section>
+</body>
+</html>
